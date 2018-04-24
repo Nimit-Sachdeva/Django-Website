@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Photographers</title>
+		<link type="text/css" rel="stylesheet" href="{% static "css/bootstrap.css" %}" >
+		<link href="{% static 'main.css' %}" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header_site">
+				<div class="container" >
+						<button class="btn glyphicon glyphicon-menu-hamburger"></button>
+						<img src="http://ourvantagepoint.com/images/VantagePointWebsiteLogo.png" alt="" height="90px" width="150px">
+						<button class="glyphicon glyphicon-search pull-right btn btn-hover"></button>
+
+				</div>
+			</header>
+			<!-- Grids have all the divs in the form  of grids inside it -->
+			<div class="container-fluiid"  >
+				<!-- Slider Start  -->
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="{% static "images/311.jpg"%}" alt="...">
+								<div class="carousel-caption">
+									Slide 1
+								</div>
+							</div>
+							<div class="item">
+								<img src="{% static "images/013.jpg" %}" alt="...">
+								<div class="carousel-caption">
+									Slide 1
+								</div>
+							</div>
+
+							<div class="item">
+								<img src="{% static "images/nature.jpg" %}" alt="...">
+								<div class="carousel-caption">
+									Slide 2
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+				</div>
+
+<!-- Slider End -->
+
+				<section class="container" >
+					<div class="" id="firstbox">
+
+					<!--First Section Start  -->
+						<div class=" col-md-6 col-sm-6 col-xs-12" id="grid1" >
+									<div id="big-grid-text">
+										<h3 class="text-center">Food</h4>
+									</div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6 grid">
+								<div class="" id="mozeralla">
+								</div>
+								<div class="" style="background:white; height:150px;padding: 0 10px 0 10px;">
+								</div>
+
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6 grid">
+								<div class="img-responsive" id="curtains">
+								</div>
+								<div class="" style="background:white; height:150px;padding: 0 10px 0 10px;">
+								</div>
+							</div>
+							<div class="text-center col-md-6 col-sm-6 col-xs-6" id="Explore">
+								<h3 >Explore</h3>
+								<span><h4 class="rectangle">Food</h4></span>
+								<span>
+									<h4 class="rectangle">Garden</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Crafts</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Decor</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Repair</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Pets</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Family</h4>
+								</span>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 text-center">
+								<h3 class="text-center">Trending</h3>
+								<span><h4 class="rectangle">Healthy Lunches</h4></span>
+								<span>
+									<h4 class="rectangle">Carpets and flooring</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Work Family Balance</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Pasta</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Upcycling</h4>
+								</span>
+								<span>
+									<h4 class="rectangle">Glutten-Free</h4>
+								</span>
+								<img class="img-responsive pull-right" width="80%" src="https://fthmb.tqn.com/cao6NmgIdTimPCOUqndgTqo3YWM=/640x0/filters:no_upscale()/Illo02-anim-58a5fca45f9b58a3c90c6a1c.gif" alt="">
+							</div>
+					</div>
+				</section>
+			</div>
+						<!--First Section End  -->
+
+						<!-- About Us Section -->
+						<div id="aboutus" class="photography">
+							<div class="container">
+								<div class="">
+
+								<h1 class="text-center">Know About Us</h1>
+								<br>
+								<br>
+								<h2>We have a lot of great new things for you.<br>
+									We have a lot of photos for you and a bunch full of pictures.<br>
+									You can Contact Us if you need a photoshoot .
+
+								</h2>
+							</div>
+							</div>
+						</div>
+
+						<!--End of About Us section  -->
+
+						<!--Second Section Start  -->
+			<div class="container">
+				<div class="secondbox">
+					<h2 class="text-center">Food & Recipes</h2>
+					<div class="col-md-4 col-sm-4 col-xs-4  foodgrids " >
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/qLuJNdkMhf0PBbNHXkWfQCaT39Q=/600x400/Step_18_Caprese_Pasta_Recipe-5a98c8f16edd650036930f71-5a9956eb04d1cf0038b11d7c.jpg);background-size:cover;">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/SLUaJw6pdo6Y0vxGvs6a4O3LJRQ=/600x400/scallions_getty2400-56a4986a5f9b58b7d0d7bb32.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/1uHhP7NF1T27-_cEOMaxpTjuxdo=/600x400/GettyImages-499163919-5a748499c5542e0036678c7d.jpg);background-size:cover">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Second Section end  -->
+
+			<!--Third Section Start  -->
+			<div class="container">
+				<div id="thirdbox">
+					<h2 class="text-center">Home Design & Decor>></h2>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids" >
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/8QGGAJB0Q8OKwsUHOBEZxZ9UJDI=/600x400/Scandi16-590bb0615f9b586470f2203f.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/qbBD7Q2dqazwFJLOtrfv6B39cHM=/600x400/gold-foil-pillow-036-56a262755f9b58b7d0c98cae-5914b7335f9b586470224582-5a99793d6bf0690036193db5.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/MWoQFrD68s4sk_twL2PhG61BgZM=/600x400/db_s_34-597d13d9054ad9001147c7d2-5a99783cc064710037ca683c.jpg);background-size:cover">
+						</div>
+					</div>
+					<!--Third Section End  -->
+
+				</div>
+				<div class="secondbox">
+					<h2 class="text-center">Family Life & Living>></h2>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/PYiwdPfrPbI6dhboxmaZuQRNcZY=/600x400/GettyImages-536992395-5a8f8d2d119fa80037e56d7a.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/2nJozfcnPxvr2QllI4BmIfWJxck=/600x400/GreyNurserywithHerringboneAccentWall-56cf76235f9b5879cc65cada.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/pUJJDKK2-oXrYSmKfrdMRAO_694=/600x400/pinkpeonies-5887a5e95f9b58bdb35e8e21.jpg);background-size:cover">
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="container-fluid" id="team">
+					<div class="members">
+						<h1 class="text-center">Member 1</h1>
+						<img class="pull-right" src="{% static "images/photographer-with-camera-9.png" %}" height="100px" alt="" />
+						<p class="text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  </p>
+					</div>
+				</div>
+				<div class="container">
+				<div class=" secondbox" >
+					<h2 class="text-center ">Pet Care>></h2>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/TYrtfuFhWzadcBa0HM4FmN55hzg=/600x400/Stocksy_txpbc0faf6cXar100_Medium_1574612-5a99818e8023b900365c8c89.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/MypJvtl9qV6txaS31IASJahFxF4=/600x400/Brother-SisterMaineCoon_Nina-Pearman2122x1415-56a112a83df78cafdaa926f5.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/R97my6VcJLrXHz015lF4i9psAfs=/600x400/GettyImages-103043367-5818f9523df78cc2e8e6bba1.jpg);background-size:cover">
+						</div>
+					</div>
+				</div>
+
+				<div id="mailbox">
+					<div class="col-md-4 col-sm-4 col-xs-4" style="height:50px;">
+						<h3 >Spruce Up Your Inbox!</h3>
+						<small>Get daily tips for making your best home.</small>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 ">
+						<div class="input-group ">
+							<span class="input-group-addon" id="basic-addon1">
+								<i class="glyphicon glyphicon-envelope "></i>
+							</span>
+							<input type="text" class="form-control" placeholder="Enter Your Mail Id" aria-describedby="basic-addon2">
+							<span class="input-group-addon btn-hover btn" id="basic-addon2">Sign Up</span>
+						</div>
+					</div>
+
+
+					<img src="https://fthmb.tqn.com/dZgu0nZsO8LBvlKai94XIDqMMj8=/640x0/filters:no_upscale()/Illo05-anim-58a5fca55f9b58a3c90c6a7d.gif" alt="" height="90px" >
+				</div>
+
+<!-- Contact Us section start -->
+				<div id="contactus" class="photography">
+					<div class="container ">
+						<div class="">
+
+						<div class="form col-md-5">
+							<h2 class=""> Please Fill The Form </h2>
+							<form class="" action="#" method="post">
+								<div class="form-group">
+									<label for="name">Name
+									</label>
+									<input type="text" class="form-control" id="name" name="" value="">
+								</div>
+								<div class="form-group">
+									<label for="email" >Email Id
+									</label>
+									<input type="email" class="form-control" id="email" name="" value="">
+								</div>
+								<div class="form-group ">
+									<label for="subject">Subject
+									</label>
+									<input type="text" class="form-control" id="subject" name="" value="">
+								</div>
+								<div class="form-group">
+									<label for="message">Message
+									</label>
+									<textarea rows="5" placeholder="Message" cols="50" class="form-control">
+									</textarea>
+								</div>
+								<input class="btn btn-hover btn-primary" type="submit" name="" value="Submit">
+
+							</div>
+						</form>
+						<div class="col-md-7 right">
+							<h1 class="text-center">Contact Us</h1>
+							<h2> Email us at <small>nimitsachdeva13@gmail.com</small> </h2>
+							<h2> Call us at <small>8284914780</small> </h2>
+							<h2> Address<small>H.no. 2051, Sector 71, Mohali</small> </h2>
+							<br>
+							<br>
+							</div>
+						</div>
+						</div>
+					</div>
+
+
+<!-- Contact Us section end -->
+				<div class="secondbox">
+					<h2 class="text-center">Crafts & DIYs>></h2>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/Mt5Fv73kIfI3vTh8Gz6VRQ1gDxs=/600x400/emoji-dog-bed-4-600x900-56aa404d3df78cf772aec058-5a99837304d1cf0038b72e7e.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/WoJlmtC7Ctf9E9KQBlFJR4b2yts=/600x400/Final2-56a527905f9b58b7d0db2c5e-5a9983f343a1030037e68bf4.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/Vq-dylcZXV3VroNJA9pqXxNL0k4=/600x400/Stocksy_txp9c7593db1hO100_Medium_1146083-58bda7763df78c353c78b096.jpg);background-size:cover">
+						</div>
+					</div>
+				</div>
+				<div class="secondbox">
+					<h2 class="text-center">Outdoors & Gardening>></h2>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/_rrvZAwR4xNVpZMHGTMoXH7x72o=/600x400/PinkStilettos-56a1be6b5f9b58b7d0c23290-5a99850831283400375bb091.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/uMFsCiq8GP08vRSo7qcIUq3gvjg=/600x400/collard-5885420f5f9b58bdb3936a36-5a99852bae9ab80037ada085.jpg);background-size:cover">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4 foodgrids">
+						<div style="height:268px; background-image:url(https://fthmb.tqn.com/oWBoWFDKxbKbXpRas2KunTZejzY=/600x400/hands-holding-soil-502864861-588125563df78c2ccd163cd0.jpg);background-size:cover">
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+				<footer id="footer">
+					<div class="container">
+
+					<div class="col-md-4 col-sm-4 col-xs-4 ">
+						<img src="http://ourvantagepoint.com/images/VantagePointWebsiteLogo.png" alt="" height="90px">
+
+						<p>Get daily tips for making your best home.</p>
+						<div class="input-group ">
+							<span class="input-group-addon" id="basic-addon1">
+								<i class="glyphicon glyphicon-envelope "></i>
+							</span>
+							<input type="text" class="form-control" placeholder="Enter Your Mail Id" aria-describedby="basic-addon2">
+							<span class="input-group-addon btn-hover btn" id="basic-addon2">Sign Up</span>
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-8 ">
+
+
+					</div>
+				</div>
+				</footer>
+			</div>
+		<script src="{% static "js/jquery.js" %}"></script>
+		<script src="{% static "js/bootstrap.min.js" %}"></script>
+		<!-- <script src="main.js"></script> -->
+	</body>
+</html>
